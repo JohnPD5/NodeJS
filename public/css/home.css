@@ -1,0 +1,12 @@
+.main img {
+  width: 100%;
+}
+
+.blur {
+  filter: blur(10px);
+  transition: all 1s;
+}
+
+.noblur {
+  transition: all 2s;
+}
