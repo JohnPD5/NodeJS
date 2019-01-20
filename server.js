@@ -15,4 +15,8 @@ server.get("/", (req, res) => {
   res.render("home");
 })
 
+server.get("/lazy", (req, res) => {
+  res.render("lazy");
+})
+
 server.listen(port, () => console.log(`Server running at http://localhost:${port}`));

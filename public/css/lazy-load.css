@@ -1,0 +1,14 @@
+.main-lazy img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.main-lazy .js-lazy-image {
+  opacity: 0;
+  transition: 0.7s opacity;
+}
+
+.main-lazy .js-lazy-image.inview {
+  opacity: 1;
+}

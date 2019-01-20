@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+  h1 Lazy Loading with Intersection Obeserver
+
+  div.main-lazy
+    img.js-lazy-image(src="/public/img/placeholder.jpg", data-src="/public/img/ocean640.jpg")
+    img.js-lazy-image(src="/public/img/placeholder.jpg", data-src="/public/img/rays640.jpg")
+    img.js-lazy-image(src="/public/img/placeholder.jpg", data-src="/public/img/rum640.jpg")
+    img.js-lazy-image(src="/public/img/placeholder.jpg", data-src="/public/img/strawberries640.jpg")
+
+block scripts
+  script(src="/public/js/LazyLoader.js")
+  script(src="/public/js/page-lazy.js")
+
+
+
+    
