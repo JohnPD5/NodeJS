@@ -1,13 +1,17 @@
 extends layout.pug
 
 block content
-  div.main
-    img.blur(src="/public/img/ocean640.jpg")
-    img.blur(src="/public/img/rays640.jpg")
-    img.blur(src="/public/img/rum640.jpg")
-    img.blur(src="/public/img/strawberries640.jpg")
+  div.main 
+    <!-- img.blur(src="/public/img/ocean640.jpg") -->
+    <!-- img.blur(src="/public/img/rays640.jpg") -->
+    <!-- img.blur(src="/public/img/rum640.jpg") -->
+    <!-- img.blur(src="/public/img/strawberries640.jpg") -->
+  div.wrapper
+    input#text(type="text")
+    p#out
 
 block scripts
   script(src="/public/js/LazyLoaderFallback.js")
+  script(src="/public/js/Clippy.js")
   script(src="/public/js/page-home.js")
 
